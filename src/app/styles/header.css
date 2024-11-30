@@ -23,11 +23,11 @@
   border: none !important;
 }
 
-.gap-5{
+.gap-5 {
   gap: 5% !important;
 }
 
-.justify-content-center{
+.justify-content-center {
   justify-content: center !important;
 }
 
@@ -37,18 +37,17 @@
   padding: 16px 36px 16px 36px;
   gap: 10px;
   border-radius: 8px 0px 0px 0px;
-  opacity: 0px;
 }
 .button {
   text-transform: capitalize;
-  background: 
-    linear-gradient(0deg, #4334dd, #4334dd), /* Linear gradient */
-    radial-gradient(
-      63.11% 63.11% at 31.97% 19.67%, 
-      rgba(255, 255, 255, 0.7) 0%, 
-      rgba(255, 255, 255, 0) 69.79%, 
-      rgba(255, 255, 255, 0) 100%
-    ); /* Radial gradient */
+  background: linear-gradient(0deg, #4334dd, #4334dd),
+    /* Linear gradient */
+      radial-gradient(
+        63.11% 63.11% at 31.97% 19.67%,
+        rgba(255, 255, 255, 0.7) 0%,
+        rgba(255, 255, 255, 0) 69.79%,
+        rgba(255, 255, 255, 0) 100%
+      ); /* Radial gradient */
   background-blend-mode: overlay; /* Optional: Blend mode */
   border: none; /* Remove default button border */
   color: #fff; /* Text color */
@@ -59,12 +58,12 @@
 }
 
 .Btn_primary:hover {
-  background: 
-    linear-gradient(0deg, #4334dd, #4334dd), /* Linear gradient */
-    radial-gradient(
-      63.11% 63.11% at 31.97% 19.67%, 
-      rgba(255, 255, 255, 0.7) 0%, 
-      rgba(255, 255, 255, 0) 69.79%, 
-      rgba(255, 255, 255, 0) 100%
-    ) !important ;
+  background: linear-gradient(0deg, #4334dd, #4334dd),
+    /* Linear gradient */
+      radial-gradient(
+        63.11% 63.11% at 31.97% 19.67%,
+        rgba(255, 255, 255, 0.7) 0%,
+        rgba(255, 255, 255, 0) 69.79%,
+        rgba(255, 255, 255, 0) 100%
+      ) !important ;
 }

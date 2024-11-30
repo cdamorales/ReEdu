@@ -1,137 +1,148 @@
-.carousel-learners{
-    display: flex;
-    justify-content: center;
-    gap: 150px;
+.carousel-learners {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
 }
-.carousel{
-    width: 100%;
-    gap: 50px;
+.carousel {
+  width: 100%;
+  gap: 50px;
 }
-.card-learner{
-    width: 47%;
-    height: 519px;
-    gap: 10px;
-    border-radius: 30px;
-    opacity: 0px;
-    background: #EEF5FF;
-    display: flex;
-    flex-direction: column;
+.card-learner {
+  width: 47%;
+  height: 519px;
+  gap: 10px;
+  border-radius: 30px;
+  background: #eef5ff;
+  display: flex;
+  flex-direction: column;
 }
-.card-item-learner{
-    display: flex !important;
-    justify-content: space-between;
+.card-item-learner {
+  display: flex !important;
+  justify-content: space-between;
 }
-.card-learner > .content{
-    width: 686px;
-    height: 75%;
-    border-radius: 30px ;
-    display: flex;
-    flex-direction: column;
-    padding: 56px;
-    gap: 56px;
+.card-learner > .content {
+  width: 686px;
+  height: 75%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 56px;
+  gap: 56px;
 }
-.card-learner > .header{
-    top: 401.32px;
-    padding: 16px 0px 16px 40px;
-    gap: 10px;
-    opacity: 0px;
-    border-radius: 0px 0px 30px 30px;
-    background: linear-gradient(0deg, #4334DD, #4334DD),
-    radial-gradient(63.11% 63.11% at 31.97% 19.67%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    display: flex;
-    background-blend-mode: overlay;
-}
-
-.card-learner > .content > .description-learner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: DIN Round Pro;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+.card-learner > .header {
+  top: 401.32px;
+  padding: 16px 0px 16px 40px;
+  gap: 10px;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(0deg, #4334dd, #4334dd),
+    radial-gradient(
+        63.11% 63.11% at 31.97% 19.67%,
+        rgba(255, 255, 255, 0.35) 0%,
+        rgba(255, 255, 255, 0) 69.79%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  display: flex;
+  background-blend-mode: overlay;
 }
 
-.card-learner > .header > .names{
-    display: flex;
-    justify-content: center;
-    font-family: DIN Round Pro;
-font-size: 26px;
-font-weight: 400;
-line-height: 39px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
+.card-learner > .content > .description-learner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: DIN Round Pro;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
 
+.card-learner > .header > .names {
+  display: flex;
+  justify-content: center;
+  font-family: DIN Round Pro;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
 }
-.card-learner > .header > .names{
-    display: flex;
-    justify-content: center;
-    font-family: DIN Round Pro;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 39px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    flex-direction: column;
+.card-learner > .header > .names {
+  display: flex;
+  justify-content: center;
+  font-family: DIN Round Pro;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  flex-direction: column;
 }
-.card-learner > .header > .names > .title{
-    font-family: Proxima Nova;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 48px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #FFFFFF;
+.card-learner > .header > .names > .title {
+  font-family: Proxima Nova;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
 }
-.card-learner > .header > .names > .role{
-    font-family: DIN Round Pro;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #FFFFFF;
+.card-learner > .header > .names > .role {
+  font-family: DIN Round Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+.chef-bg {
+  display: flex;
+  justify-content: flex-end;
+}
+.container-learners {
+  padding: 100px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+.slick-active > button {
+  width: 17.48px !important;
+  height: 17.48px !important;
+  border-radius: 10px !important;
 
+  background: linear-gradient(0deg, #4334dd, #4334dd),
+    radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ) !important;
+  background-blend-mode: overlay;
 }
-.chef-bg{
-    display: flex;
-    justify-content: flex-end;
-}
-.container-learners{
-    padding: 100px;
-    padding-top: 250px;
-    padding-bottom: 250px;
-}
-.slick-active > button{
-    width: 17.48px !important;
-    height: 17.48px !important;
-    border-radius: 10px !important;
+.slick-dots > li > button {
+  width: 17.48px !important;
+  height: 17.48px !important;
+  border-radius: 10px !important;
+  background-blend-mode: overlay;
 
-    background: linear-gradient(0deg, #4334DD, #4334DD),
-radial-gradient(63.11% 63.11% at 31.97% 19.67%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) !important;
-background-blend-mode: overlay;
-
+  background: linear-gradient(0deg, #4334dd, #4334dd),
+    radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    ) !important;
 }
-.slick-dots > li > button{
-    width: 17.48px !important;
-    height: 17.48px !important;
-    border-radius: 10px !important;
-    background-blend-mode: overlay;
-
-    background: linear-gradient(0deg, #4334DD, #4334DD),
-radial-gradient(63.11% 63.11% at 31.97% 19.67%, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%) !important;
+.slick-dots > li > button {
+  margin-top: 50px;
 }
-.slick-dots > li > button{
-    margin-top: 50px;
-}
-.slick-dots{
-    margin-top: 50px;
-    gap: 10px;
+.slick-dots {
+  margin-top: 50px;
+  gap: 10px;
 }
