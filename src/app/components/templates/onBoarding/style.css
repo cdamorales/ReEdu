@@ -1,0 +1,67 @@
+.container-title-description {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.container-title {
+  width: 70%;
+  display: flex;
+}
+
+.red-title {
+  color: #bd142d;
+}
+
+.title {
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: DIN Round Pro;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 103.04px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  font-family: DIN Round Pro;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 103.04px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: #0e0e0e;
+}
+
+.description {
+  width: 70%;
+  font-family: DIN Round Pro;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #707070;
+}
+
+.house-header {
+  width: 100% !important;
+}
+.house-header-degrad {
+  -webkit-mask-image: linear-gradient(to top, white 20.5%, transparent 100%);
+  mask-image: linear-gradient(to top, white 20.5%, transparent 100%);
+
+  background: linear-gradient(
+    180deg,
+    #ffffff 20.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.plans-house-header {
+  position: absolute;
+  top: 10%;
+}

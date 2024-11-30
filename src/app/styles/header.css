@@ -1,0 +1,70 @@
+.Btn_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Container_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  margin-bottom: 2rem;
+}
+
+.w-available {
+  width: -webkit-fill-available !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.gap-5{
+  gap: 5% !important;
+}
+
+.justify-content-center{
+  justify-content: center !important;
+}
+
+.Btn_primary {
+  width: Hug (170px) px;
+  height: Hug (58px) px;
+  padding: 16px 36px 16px 36px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+.button {
+  text-transform: capitalize;
+  background: 
+    linear-gradient(0deg, #4334dd, #4334dd), /* Linear gradient */
+    radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%, 
+      rgba(255, 255, 255, 0.7) 0%, 
+      rgba(255, 255, 255, 0) 69.79%, 
+      rgba(255, 255, 255, 0) 100%
+    ); /* Radial gradient */
+  background-blend-mode: overlay; /* Optional: Blend mode */
+  border: none; /* Remove default button border */
+  color: #fff; /* Text color */
+  padding: 25px 30px; /* Button size */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  background-size: cover; /* Cover background area */
+}
+
+.Btn_primary:hover {
+  background: 
+    linear-gradient(0deg, #4334dd, #4334dd), /* Linear gradient */
+    radial-gradient(
+      63.11% 63.11% at 31.97% 19.67%, 
+      rgba(255, 255, 255, 0.7) 0%, 
+      rgba(255, 255, 255, 0) 69.79%, 
+      rgba(255, 255, 255, 0) 100%
+    ) !important ;
+}

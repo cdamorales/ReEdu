@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ffffff;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.d-flex {
+  display: flex !important;
+}
+.flex-direction-col {
+  flex-direction: column !important;
+}
+p,
+span {
+  font-family: DIN Round Pro !important;
+}
+
+h1 {
+  font-family: Titillium Web !important;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60.84px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.bg {
+  background-image: url("../../public/assets/img/bg.svg");
+}

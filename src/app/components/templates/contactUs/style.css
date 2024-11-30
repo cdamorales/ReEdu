@@ -1,0 +1,97 @@
+.container-contact-us {
+  display: flex;
+  flex-direction: row;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  gap: 40px;
+  padding: 50px;
+}
+.container-contact-us > .details {
+  width: 55%;
+  height: 875px;
+  padding: 40px;
+  border-radius: 10px 0px 0px 0px;
+  background: linear-gradient(0deg, #bd142d, #bd142d),
+    radial-gradient(
+        63.11% 63.11% at 31.97% 19.67%,
+        rgba(255, 255, 255, 0.2) 0%,
+        rgba(255, 255, 255, 0) 69.79%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-contact-us > .details > .description-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.container-contact-us > .details > .description-contact > .title-contact {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.container-contact-us > .details > .description-contact > .desc-contact {
+  font-family: Aeonik;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.container-contact-us
+  > .details
+  > .description-contact
+  > .info-contact
+  > .contact-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 273px;
+  height: 56px;
+  align-items: center;
+}
+
+.container-contact-us > .details > .social-btns {
+  display: flex;
+  flex-direction: row;
+  width: Hug (184px) px;
+  height: Hug (40px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+.container-contact-us > .form {
+  width: 100%;
+  height: Hug (755px) px;
+  padding: 25px;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.container-contact-us > .form > .row-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.container-contact-us > .form > .row-form > .field-name {
+  font-family: DIN Round Pro;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25.76px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #2e2e2e;
+}

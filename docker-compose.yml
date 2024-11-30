@@ -1,0 +1,12 @@
+services:
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000" # Maps port 3000 on the host to port 3000 in the container
+    volumes:
+      - .:/app
+      - /app/node_modules # Prevent overwriting node_modules
+    environment:
+      - NODE_ENV=production
